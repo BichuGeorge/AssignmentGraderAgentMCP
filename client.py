@@ -13,9 +13,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # HARDCODED API KEYS - DO NOT SHARE THIS FILE
-GROQ = "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"
-GOOGLE_SEARCH_API = "AIzaSyCsjeScNo2G5FnV9ZE4sY_ZPigyxe-R_xw"
-SEARCH_ENGINE_ID = "739cdac5277be4d9a"
+GROQ = ""
+GOOGLE_SEARCH_API = ""
+SEARCH_ENGINE_ID = ""
 
 # Initialize session state variables
 if 'api_server_url' not in st.session_state:
